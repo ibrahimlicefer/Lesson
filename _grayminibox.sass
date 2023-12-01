@@ -1,0 +1,28 @@
+#grayminibox
+    .minibox
+        width: 150px
+        height: 150px
+        border: 2px solid #e0d0de
+        font-size: 25px
+        color: #26208f
+        transition: 3s
+        &:hover
+            height: 50px
+            width: 200px
+            border: 5px solid #302b92
+    @media screen and ( max-width: 600px )
+        .minibox
+            width: 120px
+            height: 120px
+            border: 3px solid #302b92
+            &:hover
+                border: 10px solid #302b92
+                height: 120px
+                width: 400px
+    @media screen and ( max-width: 400px )
+        .minibox
+            width: 100px
+            height: 100px
+            background-color: #42aba2
+            color: #ffff
+            border: 6px solid #409a48
